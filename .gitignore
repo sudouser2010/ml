@@ -1,0 +1,4 @@
+embeddings/
+models/
+__pycache__/
+.idea/
