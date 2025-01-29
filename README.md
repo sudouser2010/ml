@@ -1,4 +1,4 @@
-# ML Snippets: Retrival Augmented Generation
+# ML Snippets: Retrieval Augmented Generation
 
 ### How to Use
 1. Install Dependencies
