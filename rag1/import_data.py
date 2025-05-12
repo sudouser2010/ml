@@ -5,13 +5,7 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from itertools import islice
-
-
-def chunk(arr_range, chunk_size):
-    arr_range = iter(arr_range)
-    return iter(lambda: list(islice(arr_range, chunk_size)), [])
-
+from utils import chunk
 
 # obtain text source
 data_source = 'inputs/source.txt'
